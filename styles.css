@@ -1,3 +1,132 @@
-.topBar{
+nav {
     background-color: #567A29;
+    color: #ffffff;
+}
+.navbar-brand{
+    background-color: white;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2.75em;
+    text-align: center;
+    
+}
+#leftTitle{
+    text-align: start;
+}
+
+.jumbotron {
+    background-color : #ffffff;
+}
+.bunny{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.C2A{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FF9900;
+    border: none;
+    width: 184px;
+    height: 48.09px;
+}
+.cardBody{
+    max-width: 70%;
+    align-items: center;
+    justify-content: end;
+}
+.card2{
+    position: relative;
+    background: radial-gradient(#6984A1, #272E42);
+    color:#ffffff;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    height: 50vh;
+}
+.card3{
+    position:relative;
+    margin: 1em;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #567A29;
+    color: #ffffff;
+}
+.donateButton{
+    background-color: #567A29;
+}
+.card4{
+    margin: 1em;
+    height: 50vh;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    color:#567A29
+}
+button{
+    width:184px;
+    height: 36px;
+    border:1px solid #F9FAFC;
+    background-color: transparent;
+    color:#F9FAFC;
+}
+.card5{
+    position:relative;
+    display: flex;
+    background-color: #272E42;
+    color: #ffffff;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 1em;
+    width:auto;
+    height: 40vh;
+}
+.csContent{
+    margin:1em;
+}
+
+.aA{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./RAD-1st-recheck-infected-1100.jpeg');
+}
+.aB{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./slide-02-the-diagnostics.jpeg');
+}
+.aC{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./slide-2-the-diagnostics.jpeg');
+}
+.aD{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./slide-3-rehabilitation.jpeg');
+}
+.aE{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./slide-4-diagnosis.jpeg');
+}
+.aF{
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent, #272e42),
+    url('./slide-4-treatment.jpeg');
 }
