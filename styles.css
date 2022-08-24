@@ -130,3 +130,11 @@ button{
     linear-gradient(to left, transparent, #272e42),
     url('./slide-4-treatment.jpeg');
 }
+.JUMBOTRON1{
+    display: block;
+    background: radial-gradient(#6984A1, #272E42);
+    color:#F9FAFC;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
