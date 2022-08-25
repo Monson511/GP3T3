@@ -1,10 +1,10 @@
 nav {
     background-color: #567A29;
-    color: #ffffff;
 }
 .navbar-brand{
     padding:0;
     margin:0;
+    z-index: 10;
 }
 .mr-auto, .mxauto{
     margin-right: 0!important;
@@ -20,12 +20,13 @@ nav {
 .navbar-light .navbar-toggler-icon {
     width: 50px;
     height: 50px;
-    background-image: url("./nav_menu.svg");
+    background-image: url("./home/nav_menu.svg");
 }
 .ovRow{
     position: relative;
     height: 37px;
     background-color: #F9FAFC;
+    overflow:visible;
 }
 .overRow{
     display: flex;
@@ -36,6 +37,8 @@ nav {
     position: relative;
     height:37px;
     background-color: #F9FAFC;
+    overflow:visible;
+    z-index: 2;
 }
 .underRow{
     display: flex;
@@ -60,7 +63,7 @@ h3 {
     font-family: 'Lato';
     font-weight: 700;
     color: #567A29;
-    font-size: 1em;
+    font-size: 18px;
     margin-bottom: 0.5em;
 }
 #leftTitle{
@@ -98,12 +101,12 @@ h3 {
     align-items: center;
     justify-content: center;
     margin: 1em;
-    height: 50vh;
+    height: fit-content;
 }
 .card3{
     position:relative;
     margin: 1em;
-    height: 50vh;
+    height: fit-content;
     align-items: center;
     justify-content: center;
     background-color: #567A29;
