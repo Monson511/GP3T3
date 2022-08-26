@@ -1,3 +1,35 @@
+
+
 .topBar{
     background-color: #567A29;
+}
+
+.footer-link{
+    color: black;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    color: white;
+    margin: auto;
+}
+
+.list-group-item{
+    color: white;
+}
+
+footer p{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+
+footer .btn{ 
+    background-color: #FF9900; color: black;
+}
+
+#phone{ color: #FF9900;
+
 }
