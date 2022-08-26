@@ -14,78 +14,96 @@
         <div class="greenBar"></div>
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-              <img src="images/wrc-logo.png" width="40" height="40" class="d-inline-block align-top" alt="state of minnesota with pawprints crossing it diagonally and a heron lining the left side and a songbird sitting on the upper right corner">
-              <h2 class="d-inline-block align-top">WRC PRE-ADMIT INFORMATION</h2>
+              <img src="images/wrc-logo.png" width="40" height="40" class="d-inline-block align-top" id="wrcLogo" alt="state of minnesota with pawprints crossing it diagonally, a heron lining the left side, and a songbird sitting on the upper right corner">
+              <h2 class="d-inline-block" id="headerTitle">WRC PRE-ADMIT INFORMATION</h2>
             </a>
           </nav>
         <section>
             <div class="sectionHeader">
                 <h1>Regarding this animal...</h1>
             </div>
+            <div class="container">
             <form>
                 <h2>What species of animal are you bringing in today?*</h2>
-                <div class="form-group">
-                <input type="text" class="form-control" id="species">
-                </div>
-                <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">unsure/unknown</label>
+                <div class="container">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="species">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">unsure/unknown</label>
+                    </div>
                 </div>
             </form>
             <form>
                 <h2>When was this animal found?</h2>
-                <label for="dateFound">Date*</label>
-                <input type="date" id="dateFound" name="date">
-                <label for="timeFound">Time*</label>
-                <input type="time" id="timeFound" name="time">
+                <div class="container">
+                    <label for="dateFound">Date*</label>
+                    <input type="date" id="dateFound" name="date">
+                    <label for="timeFound">Time*</label>
+                    <input type="time" id="timeFound" name="time">
+                </div>
             </form>
             <form>
                 <h2>Where was this animal found?</h2>
+                <div class="container">
                 <div class="form-group">
                     <select multiple class="form-control" id="foundWhere">
-                      <option>at my house/in my yard</option>
-                      <option>specific address (not my place)</option>
-                      <option>I only have a cross street or description</option>
+                      <option class="foundOpt">At my house/in my yard</option>
+                      <option class="foundOpt">Specific address (not my place)</option>
+                      <option class="foundOpt">I only have a cross street or description</option>
                     </select>
-                  </div>
+                </div>
+                </div>
+            <div class="container">
+                <div class="row">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="inputAddress" placeholder="address">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Address">
                 </div>
+                </div>
+                <div class="row">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="apartment, studio, or floor">
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                 </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" class="form-control" id="inputCity" placeholder="city">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <select id="inputState" class="form-control">
-                      <option selected>state...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <input type="text" class="form-control" id="inputZip" placeholder="zip">
-                  </div>
                 </div>
+                <div class="form-row row">
+                    <div class="form-group col-6" id="cityDiv">
+                        <input type="text" class="form-control" id="inputCity" placeholder="City">
+                    </div>
+                    <div class="form-group col-4" id="stateDiv">
+                        <select id="inputState" class="form-select">
+                        <option selected>State...</option>
+                        <option>MN</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-2" id="zipDiv">
+                        <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+                    </div>
+                </div>
+            </div>
             </form>
             <form>
                 <h2>How many are you bringing in?</h2>
-                <div class="form-group">
-                    <input type="number" class="form-control" id="howMany">
+                <div class="container">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="howMany">
                     </div>
                     <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">unsure/unknown</label>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">unsure/unknown</label>
                     </div>
+                </div>
             </form>
+            </div>
         </section>
         <section>
             <div class="sectionHeader">
                 <h1>Did you observe...</h1>
             </div>
+            <div class="container">
             <form>
                 <h2>What happened to this animal?</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="unknown">
                     <label class="form-check-label" for="unknown">Unknown</label>
@@ -98,127 +116,143 @@
                     <input type="checkbox" class="form-check-input" id="sittingInRoad">
                     <label class="form-check-label" for="sittingInRoad">Sitting in Road</label>
                 </div>
+                </div>
             </form>
             <form>
                 <h2>Interaction with:</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="dog">
-                    <label class="form-check-label" for="dog">dog</label>
+                    <label class="form-check-label" for="dog">Dog</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="cat">
-                    <label class="form-check-label" for="cat">cat</label>
+                    <label class="form-check-label" for="cat">Cat</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="abuse">
-                    <label class="form-check-label" for="abuse">abuse by human</label>
+                    <label class="form-check-label" for="abuse">Abuse by Human</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="otherWildAnimal">
-                    <label class="form-check-label" for="otherWildAnimal">other wild animal</label>
+                    <label class="form-check-label" for="otherWildAnimal">Other Wild Animal</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="notObserved">
-                    <label class="form-check-label" for="notObserved">not observed</label>
+                    <label class="form-check-label" for="notObserved">Not Observed</label>
+                </div>
                 </div>
             </form>
             <form>
                 <h2>Entrapment:</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="windowWell">
-                    <label class="form-check-label" for="windowWell">window well</label>
+                    <label class="form-check-label" for="windowWell">Window Well</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="fence">
-                    <label class="form-check-label" for="fence">fence</label>
+                    <label class="form-check-label" for="fence">Fence</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="trap">
-                    <label class="form-check-label" for="trap">trap</label>
+                    <label class="form-check-label" for="trap">Trap</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="fishingTackle">
-                    <label class="form-check-label" for="fishingTackle">fishing tackle</label>
+                    <label class="form-check-label" for="fishingTackle">Fishing Tackle</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="stormSewer">
-                    <label class="form-check-label" for="stormSewer">storm sewer</label>
+                    <label class="form-check-label" for="stormSewer">Storm Sewer</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="noneOfThese">
-                    <label class="form-check-label" for="noneOfThese">none of these</label>
+                    <label class="form-check-label" for="noneOfThese">None of These</label>
+                </div>
                 </div>
             </form>
             <form>
                 <h2>Collision (actually saw this:</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="window">
-                    <label class="form-check-label" for="window">window</label>
+                    <label class="form-check-label" for="window">Window</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="car">
-                    <label class="form-check-label" for="car">car</label>
+                    <label class="form-check-label" for="car">Car</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="lawnEquip">
-                    <label class="form-check-label" for="lawnEquip">lawn equipment</label>
+                    <label class="form-check-label" for="lawnEquip">Lawn Equipment</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="other">
-                    <label class="form-check-label" for="other">other</label>
+                    <label class="form-check-label" for="other">Other</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="notObserved2">
-                    <label class="form-check-label" for="notObserved2">not observed</label>
+                    <label class="form-check-label" for="notObserved2">Not Observed</label>
+                </div>
                 </div>
             </form>
             <form>
                 <h2>For baby animals/orphans:</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="lyingOnGround">
-                    <label class="form-check-label" for="lyingOnGround">lying on ground</label>
+                    <label class="form-check-label" for="lyingOnGround">Lying on Ground</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="broughtHome">
-                    <label class="form-check-label" for="broughtHome">someone brought home</label>
+                    <label class="form-check-label" for="broughtHome">Someone Brought Home</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="abuse">
-                    <label class="form-check-label" for="abuse">abuse by human</label>
+                    <label class="form-check-label" for="abuse">Abuse by Human</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="humanRemoved">
-                    <label class="form-check-label" for="humanRemoved">human removed from nest</label>
+                    <label class="form-check-label" for="humanRemoved">Human Removed from Nest</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="nA">
-                    <label class="form-check-label" for="nA">n/a</label>
+                    <label class="form-check-label" for="nA">N/A</label>
+                </div>
                 </div>
             </form>
             <form>
                 <h2>Other</h2>
+                <div class="container">
                 <div class="form-group">
                 <input type="text" class="form-control" id="otherObservations">
                 </div>
+                </div>
             </form>
+            </div>
         </section>
         <section>
             <div class="sectionHeader">
                 <h1>Since finding this animal...</h1>
             </div>
+            <div class="container">
             <form>
                 <h2>Has animal been given:</h2>
+                <div class="container">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="foodOrLiquids">
-                    <label class="form-check-label" for="foodOrLiquids">Food or liquids</label>
+                    <label class="form-check-label" for="foodOrLiquids">Food or Liquids</label>
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="medicalCare">
                     <label class="form-check-label" for="medicalCare">Medical Care</label>
                 </div>
+                </div>
             </form>
             <form>
                 <h2>Was a person or pet bitten by this animal?</h2>
+                <div class="container">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Yes</label>
@@ -227,9 +261,13 @@
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">No</label>
                   </div>
+                  </div>
             </form>
+            </div>
         </section>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="container text-center" id="buttonContainer">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
         <div class="footnote">*fields with stars are required</div>
     </body>
 </html>
