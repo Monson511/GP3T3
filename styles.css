@@ -53,6 +53,9 @@ body{
 a{
     color:#F9FAFC;
 }
+.jButton{
+    margin: 2em 20px;
+}
 
 h1{
     font-family: 'Montserrat', sans-serif;
