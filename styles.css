@@ -101,12 +101,12 @@ h3 {
     align-items: center;
     justify-content: center;
     margin: 1em;
-    height: fit-content;
+    height: 70vh;
 }
 .card3{
     position:relative;
     margin: 1em;
-    height: fit-content;
+    height: 65vh;
     align-items: center;
     justify-content: center;
     background-color: #567A29;
@@ -117,7 +117,7 @@ h3 {
 }
 .card4{
     margin: 1em;
-    height: 50vh;
+    height: 40vh;
     position:relative;
     align-items: center;
     justify-content: center;
@@ -196,7 +196,7 @@ button{
 }
 .JUMBOTRON1{
     display: block;
-    background: linear-gradient(to left, #6984A1, #272E42);
+    background: linear-gradient(to left, #6984A1 0, #272E42 64%);
     color:#F9FAFC;
     align-items: center;
     justify-content: center;
