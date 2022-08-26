@@ -47,24 +47,35 @@ nav {
     position: relative;
     background-color: #F9FAFC;
 }
+body{
+    background-color: #F9FAFC;
+}
+a{
+    color:#F9FAFC;
+}
 
 h1{
-    font-family: Montserrat;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 2.75em;
     text-align: center;
-    
 }
 h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
+    font-weight:600;
 }
 h3 {
-    font-family: 'Lato';
+    font-family: font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #567A29;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     margin-bottom: 0.5em;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 #leftTitle{
     text-align: start;

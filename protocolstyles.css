@@ -1,0 +1,127 @@
+
+/* top of page start */
+nav {
+    background-color: #567A29;
+}
+.navbar-brand{
+    padding:0;
+    margin:0;
+    z-index: 10;
+}
+.mr-auto, .mxauto{
+    margin-right: 0!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#F9FAFC;
+}
+.navbar-light .navbar-toggler{
+    border:none;
+    width: 72px;
+    height: 72px;
+}
+.navbar-light .navbar-toggler-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url("./home/nav_menu.svg");
+}
+.ovRow{
+    position: relative;
+    height: 37px;
+    background-color: #F9FAFC;
+    overflow:visible;
+}
+.overRow{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.undRow{
+    position: relative;
+    height:37px;
+    background-color: #F9FAFC;
+    overflow:visible;
+    z-index: 2;
+}
+.underRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F9FAFC;
+}
+body{
+    background-color: #F9FAFC;
+}
+.breadcrumb{
+    background-color: #F9FAFC;
+}
+.breadcrumb-item.active {
+    color: #ff9900;
+}
+a{
+    color: #2B334C;
+}
+hr{
+    height: 5px;
+        background-color: #ff9900;
+        border: none;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.75em;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+h3 {
+    font-family: font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+button{
+    width:184px;
+    height: 36px;
+    border:1px solid #F9FAFC;
+    background-color: transparent;
+    color:#F9FAFC;
+}
+.overButton{
+    position: absolute;
+    background-color: #567A29;
+    margin-right: 1em;
+}
+.donateButton{
+    background-color: #567A29;
+}
+/* top of page end */
+.sec01{
+    background-color: #F9FAFC;
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green{
+    color:#567A29
+}
+.sec03{
+    background-color: #F9FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 3px solid #567A29;
+}
