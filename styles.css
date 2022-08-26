@@ -1,0 +1,207 @@
+nav {
+    background-color: #567A29;
+}
+.navbar-brand{
+    padding:0;
+    margin:0;
+    z-index: 10;
+}
+.mr-auto, .mxauto{
+    margin-right: 0!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#F9FAFC;
+}
+.navbar-light .navbar-toggler{
+    border:none;
+    width: 72px;
+    height: 72px;
+}
+.navbar-light .navbar-toggler-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url("./home/nav_menu.svg");
+}
+.ovRow{
+    position: relative;
+    height: 37px;
+    background-color: #F9FAFC;
+    overflow:visible;
+}
+.overRow{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.undRow{
+    position: relative;
+    height:37px;
+    background-color: #F9FAFC;
+    overflow:visible;
+    z-index: 2;
+}
+.underRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F9FAFC;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2.75em;
+    text-align: center;
+    
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+h3 {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #567A29;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+#leftTitle{
+    text-align: start;
+}
+
+.jumbotron {
+    background-color : #ffffff;
+}
+.bunny{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.C2A{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FF9900;
+    border: none;
+    width: 184px;
+    height: 48.09px;
+}
+.cardBody{
+    max-width: 70%;
+    align-items: center;
+    justify-content: end;
+}
+.card2{
+    position: relative;
+    background: radial-gradient(#6984A1, #272E42);
+    color:#ffffff;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    height: fit-content;
+}
+.card3{
+    position:relative;
+    margin: 1em;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: #567A29;
+    color: #ffffff;
+}
+.donateButton{
+    background-color: #567A29;
+}
+.card4{
+    margin: 1em;
+    height: 50vh;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    color:#567A29
+}
+button{
+    width:184px;
+    height: 36px;
+    border:1px solid #F9FAFC;
+    background-color: transparent;
+    color:#F9FAFC;
+}
+.overButton{
+    position: absolute;
+    background-color: #567A29;
+    margin-right: 1em;
+}
+.card5{
+    position:relative;
+    display: flex;
+    background-color: #272E42;
+    color: #ffffff;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 1em;
+    width:auto;
+    height: 40vh;
+}
+.csContent{
+    margin:1em;
+}
+
+.aA{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/RAD-1st-recheck-infected-1100.jpeg');
+}
+.aB{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/slide-02-the-diagnostics.jpeg');
+}
+.aC{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/slide-2-the-diagnostics.jpeg');
+}
+.aD{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/slide-3-rehabilitation.jpeg');
+}
+.aE{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/slide-4-diagnosis.jpeg');
+}
+.aF{
+    background-position: right center;
+    background-size:cover;
+    background-image:
+    linear-gradient(to left, transparent 0, #272e42 64%),
+    url('./home/slide-4-treatment.jpeg');
+}
+.JUMBOTRON1{
+    display: block;
+    background: linear-gradient(to left, #6984A1, #272E42);
+    color:#F9FAFC;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    border-top: 3px solid #F9FAFC;
+}
