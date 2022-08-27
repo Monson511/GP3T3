@@ -1,0 +1,65 @@
+body {
+    font-family:'Lato', sans-serif;
+    background-color: #F9FAFC;
+}
+h1 {
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h2 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container {
+    margin: 1rem 0rem;
+}
+.greenBar {
+    height: 2rem;
+    background-color: #567A29;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-brand {
+    padding-inline-start: 0.25rem;
+}
+#headerTitle {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.sectionHeader {
+    color: #F9FAFC;
+    background-color: #272E42;
+    border: 0.5em solid #F9FAFC;
+    padding: 0.25rem 0.5rem;
+}
+.foundOpt {
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#cityDiv {
+    padding-right: 0rem;
+}
+#stateDiv {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+#zipDiv {
+    padding-left: 0rem;
+}
+.btn {
+    color:#F9FAFC;
+    background-color: #567A29;
+}
+#buttonContainer {
+    margin-top: 2rem;
+}
+.footnote {
+    color: #F9FAFC;
+    background-color: #272E42;
+}
