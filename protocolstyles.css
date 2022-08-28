@@ -171,13 +171,7 @@ p{
     font-weight: 700;
     font-size: 16px;
 }
-button{
-    width:184px;
-    height: 36px;
-    border:1px solid #F9FAFC;
-    background-color: transparent;
-    color:#F9FAFC;
-}
+
 .overButton{
     position: absolute;
     margin-right: 1em;
