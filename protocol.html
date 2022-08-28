@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="protocolstyles.css">
   <script src="scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <meta charset="UTF-8">
   <meta name="description" content="Wildlife Rehabilitation Center of Minnesota">
   <meta name="keywords" content="WRC-MN">
@@ -21,7 +22,7 @@
     <header><!--This is the beginning of a header-->
         <div class="ovRow"><!--donate button-->
             <div class="overRow">
-                <button class="overButton">MAKE A DONATION</button>
+                <button class="btn btn-primary overButton">MAKE A DONATION</button>
             </div>
         </div><!--donate button-->
         <!--NAVBAR Start-->
@@ -31,20 +32,32 @@
               </a>
               <ul class="nav justify-content-end"><!-- other right icons-->
                 <li class="nav-item">
-                  <a class="nav-link active" href="#"><img src="./home/nav_mail.svg"></a>
+                  <a class="nav-link" href="#"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="iconNav" id="iconLoc">
+                    <path d="M25 11.6377C20.3046 11.6377 16.5 15.3649 16.5 19.9816C16.5 27.9644 25 38.3751 25 38.3751C25 38.3751 33.5 27.9627 33.5 19.9816C33.5 15.3665 29.6954 11.6377 25 11.6377ZM25 24.5984C23.7827 24.5984 22.6152 24.1227 21.7544 23.276C20.8936 22.4294 20.41 21.281 20.41 20.0836C20.41 18.8862 20.8936 17.7379 21.7544 16.8912C22.6152 16.0445 23.7827 15.5689 25 15.5689C26.2173 15.5689 27.3848 16.0445 28.2456 16.8912C29.1064 17.7379 29.59 18.8862 29.59 20.0836C29.59 21.281 29.1064 22.4294 28.2456 23.276C27.3848 24.1227 26.2173 24.5984 25 24.5984Z" />
+                    </svg></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="./home/nav_location.svg"></a>
+                  <a class="nav-link active" href="#"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="iconNav" id="iconMail">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.125 15.5939L11.1875 14.5488H38.8125L39.875 15.5939V34.4054L38.8125 35.4505H11.1875L10.125 34.4054V15.5939ZM12.25 17.7572V33.3603H37.75V17.7593L25.6588 26.8808H24.3625L12.25 17.7572ZM35.6887 16.639H14.3113L25 24.7258L35.6887 16.639Z" />
+                    </svg></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="./home/nav_phone.svg"></a>
+                  <a class="nav-link" href="#"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="iconNav" id="iconPhone">
+                    <path d="M37.0236 32.1619L31.2649 27.0117C30.9927 26.7683 30.635 26.6385 30.2673 26.6497C29.8996 26.6609 29.5507 26.8122 29.2943 27.0716L25.9042 30.5009C25.0882 30.3476 23.4477 29.8446 21.7591 28.1878C20.0704 26.5254 19.559 24.9076 19.4074 24.1105L22.891 20.7746C23.1551 20.5226 23.3091 20.1794 23.3205 19.8176C23.3318 19.4559 23.1997 19.104 22.9519 18.8364L17.7173 13.1734C17.4695 12.905 17.125 12.7422 16.757 12.7195C16.3891 12.6969 16.0267 12.8162 15.7467 13.0522L12.6726 15.6454C12.4276 15.8872 12.2815 16.209 12.2617 16.5497C12.2405 16.8981 11.8353 25.1501 18.3406 31.5515C24.0158 37.1323 31.1246 37.5405 33.0825 37.5405C33.3686 37.5405 33.5443 37.5322 33.5911 37.5294C33.9375 37.5103 34.2644 37.3659 34.5091 37.1239L37.1441 34.0987C37.3849 33.8243 37.5071 33.4681 37.4846 33.1062C37.4621 32.7443 37.2967 32.4054 37.0236 32.1619Z" />
+                    </svg></a>
                 </li>
               </ul><!-- other right icons-->
-              
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
+
+              <a class="navbar-toggler"  data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="navbar-toggler-icon iconMenu">
+                 <path d="M36.4042 23.606H13.5958C12.8526 23.606 12.25 24.1986 12.25 24.9297V25.0691C12.25 25.8002 12.8526 26.3928 13.5958 26.3928H36.4042C37.1474 26.3928 37.75 25.8002 37.75 25.0691V24.9297C37.75 24.1986 37.1474 23.606 36.4042 23.606Z" />
+                 <path d="M36.4042 30.5732H13.5958C12.8526 30.5732 12.25 31.1659 12.25 31.897V32.0364C12.25 32.7675 12.8526 33.3601 13.5958 33.3601H36.4042C37.1474 33.3601 37.75 32.7675 37.75 32.0364V31.897C37.75 31.1659 37.1474 30.5732 36.4042 30.5732Z" />
+                 <path d="M36.4042 16.6392H13.5958C12.8526 16.6392 12.25 17.2318 12.25 17.9629V18.1023C12.25 18.8334 12.8526 19.426 13.5958 19.426H36.4042C37.1474 19.426 37.75 18.8334 37.75 18.1023V17.9629C37.75 17.2318 37.1474 16.6392 36.4042 16.6392Z" />
+                 </svg>
+                
+                </a> 
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                 <li class="nav-item active">
@@ -57,7 +70,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Found a Bat?</a>
                       <a class="dropdown-item" href="#">Orphaned or Injured Animal Protocol</a>
-                      <a class="dropdown-item" href="#">Tips to Safetly Contain the Animal</a>
+                      <a class="dropdown-item" href="#">Tips to Safely Contain the Animal</a>
                       <a class="dropdown-item" href="#">Animal Specific Situations</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">WRC PRE-ADMIT FORM</a>
@@ -135,7 +148,7 @@
             <div class="card-body">
               <h3>Bringing an animal in?</h3>
               <p> Fill out our online form to check in ahead of time: </p>
-              <button class="donateButton">WRC Admit Form</button>
+              <a class="btn btn-primary" href="admitForm/form.html" role="button">WRC Admit Form</a>
             </div>
           </div>
     </section><!--Bottom Card-->
