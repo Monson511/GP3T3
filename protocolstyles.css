@@ -104,7 +104,7 @@ nav {
     /* nav svg icon end */
 .ovRow{
     position: relative;
-    height: 37px;
+    height: 40px;
     background-color: #F9FAFC;
     overflow:visible;
 }
@@ -179,7 +179,7 @@ p{
 .overButton{
     position: absolute;
     margin-right: 1em;
-    border-radius: 0;
+
 }
     /* customization of btn-primary class start */
     .btn-primary {
@@ -189,7 +189,7 @@ p{
     .btn-primary:hover {
         background-color: #567A29 !important;
         border-color:#3a531b !important;
-        box-shadow: 0px 5px 5px dimgray !important;
+        box-shadow: 0px 5px 5px black !important;
     }
     .btn-primary:active {
         background-color: #567A29 !important;
