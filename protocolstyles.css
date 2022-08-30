@@ -147,6 +147,10 @@ hr{
         background-color: #ff9900;
         border: none;
 }
+.footerHr{
+    border: none;
+    background-color:#F9FAFC;
+}
 
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -200,6 +204,9 @@ p{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+.sec03{
+    margin: 2em 0;
 }
 .green{
     color:#567A29
