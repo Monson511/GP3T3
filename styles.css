@@ -251,6 +251,7 @@ button{
     border:1px solid #F9FAFC;
     background-color: transparent;
     color:#F9FAFC;
+    margin-bottom: 1em;
 }
 .overButton{
     position: absolute;
@@ -326,5 +327,6 @@ hr{
     border-top: 3px solid #F9FAFC;
 }
 .helpContainer {
-    margin: 1em 0;
+    margin: 1em auto;
+
 }
