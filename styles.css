@@ -328,5 +328,7 @@ hr{
 }
 .helpContainer {
     margin: 1em auto;
-
+}
+.list-group{
+    --bs-list-group-color: #fff;
 }

@@ -134,10 +134,13 @@ body{
     background-color: #F9FAFC;
 }
 .breadcrumb-item.active {
-    color: #ff9900;
+    color: #3a531b;
+}
+.breadcrumb a{
+    color: #000000;
 }
 a{
-    color: #2B334C;
+    color: #F9FAFC;
 }
 .bold{
     font-weight: 900;
@@ -219,4 +222,7 @@ p{
 }
 .card{
     border: 3px solid #567A29;
+}
+.list-group{
+    --bs-list-group-color: #fff;
 }
